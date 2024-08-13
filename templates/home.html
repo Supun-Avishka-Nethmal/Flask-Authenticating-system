@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+{%block heading%}Home Page{% endblock%}
+
+{%block navlogout%}
+
+{% if user%}
+<a href="{{url_for('logout')}}" class="nav-link">Logout</a>
+
+{% endif %}
+
+{% endblock %}
+
+
+{% block content%} 
+
+
+ 
+                
+{% endblock%}
